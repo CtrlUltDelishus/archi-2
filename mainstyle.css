@@ -45,4 +45,5 @@ nav a {
   font-size: 3em;
   color: #fff;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
