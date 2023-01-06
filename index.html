@@ -39,7 +39,9 @@
     onclick="fadeOut()">Enter</a>
     <script>
       function fadeOut() {
-        document.body.classList.add('fade-out');
+        setTimeout(function() {
+          document.body.classList.add('fade-out');
+        }, 500);  // delay of the transition
       }
     </script>
   </body>
