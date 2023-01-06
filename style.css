@@ -2,10 +2,44 @@
   <head>
     <title>A R C H</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        transition: all 1s ease;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      a.enter-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 21px;
+        font-family: Berlin Sans FB, sans-serif;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        text-shadow: 16px 16px 32px rgba(0,0,0,0.5);
+        letter-spacing: 3px;
+        transition: all 0.5s ease;
+      }
+      a.enter-button:hover {
+        color: rgb(233, 41, 41);
+      }
+      .fade-out {
+        opacity: 0;
+      }
+    </style>
   </head>
   <body>
     <img src="https://media3.giphy.com/media/v5hU0tiDpKzkyulKRh/giphy.gif?cid=790b7611115f260f0c8c5ea946a6372bac9e5b1f61c63e9c&rid=giphy.gif&ct=g" alt="Background GIF" width="100%" height="100%">
-    <a href="https://ctrlultdelishus.github.io/archi-2/main-page.html" class="enter-button">[ENTER]</a>
+    <a href="https://ctrlultdelishus.github.io/archi-2/main-page.html" class="enter-button" onclick="fadeOut()">[ENTER]</a>
     <script>
       function fadeOut() {
         document.body.classList.add('fade-out');
