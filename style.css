@@ -43,7 +43,8 @@
     <a href="https://ctrlultdelishus.github.io/archi-2/main-page.html" class="enter-button" onclick="fadeOut()">[ENTER]</a>
     <script>
       function fadeOut() {
-        document.body.classList.add('fade-out');
+        document.body.style.transition= "all 5s ease"; 
+        document.body.style.opacity= 0;
       }
     </script>
   </body>
