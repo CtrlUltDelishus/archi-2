@@ -36,6 +36,9 @@
       .fade-out {
         opacity: 0;
       }
+      body.fade-out {
+        opacity: 0;
+      }
     </style>
   </head>
   <body>
