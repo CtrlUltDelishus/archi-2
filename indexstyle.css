@@ -1,13 +1,9 @@
-<html>
-  <head>
-    <title>A R C H</title>
-    <link rel="stylesheet" href="indexstyle.css">
-    <style>
+
+  
       body {
         margin: 0;
         padding: 0;
         position: relative;
-        transition: all 5s ease;
       }
       img {
         width: 100%;
@@ -27,8 +23,7 @@
         cursor: pointer;
         text-shadow: 16px 16px 32px rgba(0,0,0,0.5);
         letter-spacing: 3px;
-        transition: all 2s ease;
-        transition-duration: 3s;
+        transition: all 3s ease;
       }
       a.enter-button:hover {
         color: rgb(233, 41, 41);
@@ -40,18 +35,3 @@
       body.fade-out {
         opacity: 0;
       }
-    </style>
-  </head>
-  <body>
-    <img src="https://media3.giphy.com/media/v5hU0tiDpKzkyulKRh/giphy.gif?cid=790b7611115f260f0c8c5ea946a6372bac9e5b1f61c63e9c&rid=giphy.gif&ct=g" alt="Background GIF" width="100%" height="100%" draggable="false">
-    <a href="https://ctrlultdelishus.github.io/archi-2/main-page.html" class="enter-button" onclick="fadeOut()">[ENTER]</a>
-    <script>
-      function fadeOut() {
-        document.body.classList.add('fade-out');
-        setTimeout(function() {
-          document.body.classList.remove('fade-out');
-        }, 10000);
-      }
-    </script>
-  </body>
-</html>
