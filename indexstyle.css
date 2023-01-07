@@ -35,6 +35,7 @@
       }
       .fade-out {
         opacity: 0;
+        transition: opacity 15s;
       }
       body.fade-out {
         opacity: 0;
