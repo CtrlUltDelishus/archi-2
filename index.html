@@ -5,10 +5,38 @@
    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   </head>
   <body>
+    
+    <div class="intro">
     <img src="https://media3.giphy.com/media/v5hU0tiDpKzkyulKRh/giphy.gif?cid=790b7611115f260f0c8c5ea946a6372bac9e5b1f61c63e9c&rid=giphy.gif&ct=g" alt="Background GIF" width="100%" height="100%" draggable="false">
     <a href="https://ctrlultdelishus.github.io/archi-2/main-page.html" class="enter-button">[ENTER]</a>
+    </div>
+    
+    <div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="home">
+      <!-- Your home section content goes here -->
+    </div>
+    <div id="work">
+      <!-- Your work section content goes here -->
+    </div>
+    <div id="about">
+      <!-- Your about section content goes here -->
+    </div>
+    <div id="contact">
+      <!-- Your contact section content goes here -->
+    </div>
+    <img src="https://i.giphy.com/media/Xic34SaR9k0LSdjmdt/giphy.webp" alt="Background GIF" width="100%" height="100%" draggable="false">
+  
+    </div>
     <script>
-$( ".enter-button" ).click(function() {
+    $( ".enter-button" ).click(function() {
   alert('in')
   $( "#body" ).fadeOut( "slow", function() {
     // Animation complete.
