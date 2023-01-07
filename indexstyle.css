@@ -47,9 +47,5 @@
         document.body.style.opacity= 0;
       }
     </script>
-.fade-out {
-  opacity: 0;
-  transition: opacity 2s;
-}
   </body>
 </html>
