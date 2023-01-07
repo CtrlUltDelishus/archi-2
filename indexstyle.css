@@ -49,7 +49,7 @@
         document.body.classList.add('fade-out');
         setTimeout(function() {
           document.body.classList.remove('fade-out');
-  }, 10000);
+        }, 10000);
       }
     </script>
   </body>
