@@ -45,7 +45,3 @@ nav a {
   color: #fff;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
-.fade-in {
-  opacity: 1;
-  transition: opacity 2s;
-}
